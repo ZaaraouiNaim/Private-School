@@ -895,7 +895,7 @@ textarea {
 
 /* ====== LANDING */
 .landing {
-  height: 100vh;
+  min-height: 100vh;
   background: url("../imgs/school.jpg");
   background-position: center;
   background-size: cover;
@@ -909,6 +909,7 @@ textarea {
   justify-content: space-between;
   gap: 1rem;
   width: 100%;
+  padding: 2rem 0;
 }
 
 .landing .landing-text {
@@ -1040,6 +1041,7 @@ textarea {
 
 .landing .svg-1 {
   position: absolute;
+  left: 0;
   bottom: 0;
   fill: var(--indigo);
 }
